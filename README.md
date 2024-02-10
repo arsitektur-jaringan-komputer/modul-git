@@ -4,6 +4,8 @@
 
 ![Logo Git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png)
 
+</br>
+
 ## Daftar Modul
 
 Berikut adalah daftar modul yang ada di *repository* ini.
@@ -14,15 +16,19 @@ Berikut adalah daftar modul yang ada di *repository* ini.
 4. [Problematika Git](#)
 5. [Trivia](#)
 
+</br>
+
 ## *Tools* dan *Website* yang Digunakan
 
+1. Ekstensi `Git Graph` (pada Visual Studio Code). 
+2. Git Remote Provider. Modul ini menggunakan `GitHub` sebagai *remote provider*-nya.
 Sebelum menyelam ke modul-modul yang ada, ada beberapa *tools* dan *website* yang digunakan sebagai penunjang. 
 
 1. WSL 2 (bagi pengguna Windows).
 2. Terminal, bisa menggunakan `cmd`, `PowerShell`, atau `WSL`.
 3. IDE atau Code Editor apapun. Modul ini menggunakan `Visual Studio Code` untuk demonstrasinya.
-4. Ekstensi `Git Graph` (pada Visual Studio Code). 
-5. Git Remote Provider. Modul ini menggunakan `GitHub` sebagai *remote provider*-nya.
+
+</br>
 
 ## Instalasi *Tools*
 
@@ -58,11 +64,13 @@ Berikut adalah langkah-langkah instalasi *tools* yang digunakan.
 
     ![GitHub](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/master/1.%20Konsep%20Git%20sebagai%20VCS/img/0-4.png)
 
+</br>
 
 ## *Record* Pelatihan Sebelumnya
 
 Berikut pelatihan yang telah dilakukan sebelumnya untuk menunjang modul yang bersifat tekstual ini. *Record* dalam video, hasil rekaman pertemuan Zoom Meeting akan terdapat pada [tautan ini](https://drive.google.com/drive/folders/1hOhRaOim0lj3v08TPyNaxOnoate_lybV?usp=sharing).
 
+</br>
 
 ## Sumber Referensi
 
