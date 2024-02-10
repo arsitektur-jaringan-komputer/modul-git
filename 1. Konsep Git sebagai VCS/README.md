@@ -172,12 +172,10 @@ Setelah memahami tentang git dan GitHub, kalian tentu ingin membuat *remote repo
    ![Setup 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-17.png)
 
 7. Klik tombol `Create repository`.
-   
-   ![Setup 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-18.png)
 
 8. *Remote repository* kalian telah berhasil dibuat dengan *default branch* `main`.
    
-   ![Setup 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-19.png)
+   ![Setup 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-18.png)
 
 Setelah itu, kalian dapat mengatur *reppository* yang baru saja kalian buat. Ada bebera hal yang bisa diatur, seperti *branch protection*, *manage collaborator*, dan lainnya. Lakukan eksplorasi sebanyak mungkin, ya!
 
