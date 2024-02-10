@@ -10,11 +10,11 @@
 
 Berikut adalah daftar modul yang ada di *repository* ini.
 
-1. [Konsep Git sebagai VCS](#)
-2. [Bermain di *Local Repository*](#)
-3. [Kolaborasi dengan Github](#)
-4. [Problematika Git](#)
-5. [Trivia](#)
+1. [Konsep Git sebagai VCS](/1.%20Konsep%20Git%20sebagai%20VCS/)
+2. [Bermain di *Local Repository*](/2.%20Bermain%20di%20Local%20Repository/)
+3. [Kolaborasi dengan Github](/3.%20Kolaborasi%20dengan%20GitHub/)
+4. [Problematika Git](/4.%20Problematika%20Git/)
+5. [Trivia](/5.%20Trivia/)
 
 </br>
 
