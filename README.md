@@ -21,7 +21,7 @@ Berikut adalah daftar modul yang ada di *repository* ini.
 ## *Tools* dan *Website* yang Digunakan
 
 1. Ekstensi `Git Graph` (pada Visual Studio Code). 
-2. Git Remote Provider. Modul ini menggunakan `GitHub` sebagai *remote provider*-nya.
+2. Git Server Remote Provider. Modul ini menggunakan `GitHub` sebagai *remote provider*-nya.
 Sebelum menyelam ke modul-modul yang ada, ada beberapa *tools* dan *website* yang digunakan sebagai penunjang. 
 
 1. WSL 2 (bagi pengguna Windows).

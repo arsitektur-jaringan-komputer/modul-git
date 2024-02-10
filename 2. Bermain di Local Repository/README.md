@@ -3,7 +3,7 @@
 Setelah memahami konsep dasar dari Git, kita akan memulai dengan bermain-main di *local repository*. Kita akan memulai dengan membuat *repository*, melakukan *change*, dan melihat *history change*. 
 
 > Local vs Remote Repository?
-> Intinya, *local repository* merupakan *repository* yang berada pada *host machine* kalian. Dalam hal ini, *host machine* tersebut adalah komputer kalian. Sebaliknya, *remote repository* adalah *repository* yang terdapat pada *remote provider*, seperti GitHub. Keduanya bisa dihubungkan.
+> Intinya, *local repository* merupakan *repository* yang berada pada *host machine* kalian. Dalam hal ini, *host machine* tersebut adalah komputer kalian. Sebaliknya, *remote repository* adalah *repository* yang terdapat pada *git server remote provider*, seperti GitHub. Keduanya bisa dihubungkan.
 
 </br>
 
