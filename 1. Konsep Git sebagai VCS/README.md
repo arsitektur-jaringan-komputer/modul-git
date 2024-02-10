@@ -102,23 +102,33 @@ GitHub adalah *remote git server provider* yang paling populer saat ini. GitHub 
 
 Fitur-fitur GitHub yang paling sering digunakan adalah sebagai berikut.
 
-- **Repository**: Tempat menyimpan *project* yang dikerjakan.
+- **Repository**
+    
+    Tempat menyimpan *project* yang dikerjakan. Contohnya seperti *repository* modul ini.
 
     ![GitHub 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-7.png)
 
-- **Issues**: Tempat untuk melaporkan *bug* atau *feature request*.
+- **Issues**
+  
+    Tempat untuk melaporkan *bug* atau *feature request*.
 
     ![GitHub 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-8.png)
 
-- **Pull Request**: Tempat untuk menggabungkan *branch* yang telah dikerjakan.
+- **Pull Request**
+
+    Tempat untuk menggabungkan *branch* yang telah dikerjakan.
 
     ![GitHub 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-9.png)
 
-- **Project**: Tempat untuk mengatur *project* yang dikerjakan.
+- **Project**
+
+    Tempat untuk mengatur *project* yang dikerjakan, mirip seperti Trello atau Jira Workspace. Hal yang keren adalah GitHub Project ini langsung terkoneksi dengan *repository* yang sedang dikerjakan.
 
     ![GitHub 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-10.png)
 
-- **Action**: Tempat untuk membuat *workflow* otomatisasi.
+- **Action**
+
+    Tempat untuk membuat *workflow* otomatisasi.
 
     ![GitHub 1](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/development/1.%20Konsep%20Git%20sebagai%20VCS/img/1-11.png)
 
