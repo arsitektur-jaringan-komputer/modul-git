@@ -62,30 +62,31 @@ Ini memungkinkan Anda untuk tetap up-to-date dengan proyek utama dan menjaga for
 
 ## GitHub Project, Backlog, dan Issue
 
-cakno
+Github project adalah salah satu alat manajemen proyek, serupa dengan Trello dan Jira. Namun, github project dapat langsung dihubungkan dengan pengerjaan sebuah repository di Github. Berikut adalah contoh tampilan github project, yaitu berupa kartu-kartu yang merepresentasikan tugas, serta terhubung dengan issues dan pull request.
+
+![img](https://cdn.discordapp.com/attachments/1083700228907085946/1206143219033833502/image.png?ex=65daef68&is=65c87a68&hm=bce10d27a3a9e2c77a348ef2f381bb393fb72746e56e3887befebf4d8c60e947&)
+
+Backlog adalah daftar tugas, fitur, atau perbaikan yang perlu diselesaikan dalam proyek. Ini adalah tempat di mana semua ide atau permintaan fitur dikumpulkan sebelum mereka ditindaklanjuti atau dijadwalkan untuk implementasi.
+Dalam konteks GitHub, backlog dapat direpresentasikan dengan menggunakan fitur Issues. Issue adalah alat yang digunakan untuk melacak tugas, bug, atau permintaan fitur dalam proyek. Setiap issue memiliki judul, deskripsi, label, dan dapat ditetapkan kepada orang tertentu dalam tim. Melalui github project, issues dapat ditugaskan kepada anggota tim tertentu untuk ditindaklanjuti, dan kemudian dapat dipindahkan melalui berbagai tahapan alur kerja, seperti Ready, In Progress, In Review, dan Done.
 
 </br>
 
 ## Pull Request, Merge, dan Rebase
 
-kanza pr
-nur sing review
-    kalo udah ok, merge
-    kalo belum, kasih comment
-kanza revisi, nur acc
-merge vs rebase
+Pull Request adalah permintaan yang kita ajukan kepada pemilik repositori untuk menggabungkan (merge) perubahan yang telah dilakukan di cabang (branch) pengembang ke dalam cabang utama (biasanya master atau development) repositori. Di GitHub, Pull Request memungkinkan kita untuk membahas dan meninjau perubahan sebelum digabungkan ke dalam repositori utama. 
+
+Merge adalah proses menggabungkan perubahan dari satu cabang ke cabang lainnya di dalam repositori Git. Ini biasanya dilakukan setelah Pull Request telah direview dan disetujui. Ketika sebuah Pull Request di-merge, perubahan yang ada di cabang pengembang akan digabungkan ke dalam cabang target.
+
+Rebase adalah proses mengubah sejarah commit di branch kita dengan menerapkan perubahan yang telah terjadi di branch target. Ini biasanya digunakan untuk menjaga sejarah commit tetap bersih dan rapi dengan memperbarui branch development dengan perubahan terbaru di repositori utama. Kita dapat melakukan rebase dari branch target ke branch development mereka sebelum Pull Request di-merge untuk memastikan bahwa perubahan terbaru di repositori utama telah disertakan.
 
 </br>
 
 ## Menjadi Reviewer 101
 
-how to read changes
-how to give comment
-how to approve
-how to reject
+Sebagai reviewer, tugas kita adalah mengecek apakah perubahan yang dibuat dalam sebuah pull request sudah benar atau belum. Kita bisa mengkomentari sebuah pull request dan melakukan merge apabila perubahan yang dibuat sudah benar.
 
 </br>
 
 ## Git Graph (Git Log)
 
-Nah, salah satu keunggulan dari git adalah adanya Git Log. Git akan mencatat dan membuat alur history dari seluruh commit yang telah dibuat sebelumnya yang umum kita kenal dengan istilah logging. Git akan melakukan  
+Nah, salah satu keunggulan dari git adalah adanya Git Log. Git akan mencatat dan membuat alur history dari seluruh commit yang telah dibuat sebelumnya yang umum kita kenal dengan istilah logging. 
