@@ -155,6 +155,12 @@ Kalian juga bisa mengubah commit terakhir atau menyatukan perubahan dalam commit
 git commit --amend
 ```
 
+Kalian juga bisa melakukan commit untuk multiple user, yaitu menggunakan perintah berikut.
+
+```
+git commit --author="Nama kalian <email@kalian.com>, Nama 2 <nama@email.com>" -m "commit messages"
+```
+
 ### 3. Git push
 
 Git push dilakukan untuk mengirim perubahan yang telah di-commit di local repository ke remote repository. Berikut adalah perintah untuk melakukan git push.
@@ -185,14 +191,15 @@ Format commit dalam *conventional commit messages* adalah sebagai berikut.
 
 ### 1. Type
 
-- feat → Perubahan berupa penambahan atau penghapusan sebuah fitur.
-- fix → *Bug fixing*, diikuti deskripsi mengenai *bug*. 
-- docs → Memperbarui dokumentasi (README.md)
-- style → Mengubah *style* kode tanpa mengubah logika dalam kode.
-- chore → Menginstall atau memperbarui dependensi.
-- refactor → Mengubah pendekatan kode, namun dengan hasil yang sama.
-- test → Menambahkan atau mengoreksi tes.
-- [Tipe lainnya](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+| Tipe        | Deskripsi                                                   |
+|-------------|-------------------------------------------------------------|
+| `feat`      | Perubahan berupa penambahan atau penghapusan sebuah fitur.  |
+| `fix`       | *Bug fixing*, diikuti deskripsi mengenai *bug*.             |
+| `docs`      | Memperbarui dokumentasi (README.md)                         |
+| `style`     | Mengubah *style* kode tanpa mengubah logika dalam kode.     |
+| `chore`     | Menginstall atau memperbarui dependensi.                    |
+| `refactor`  | Mengubah pendekatan kode, namun dengan hasil yang sama.     |
+| `test`      | Menambahkan atau mengoreksi tes.                            |
 
 ### 2. Scope
 
@@ -208,9 +215,9 @@ Deskripsi bersifat mandatori, dan berisikan deskripsi singkat mengenai perubahan
 
 Branching adalah membuat cabang pekerjaan dari cabang utama development dan melanjutkan pekerjaan kalian tanpa mengutak-atik cabang utama.
 
-![img](https://cdn.discordapp.com/attachments/1206040429368451093/1206120063959048212/C0Sh78rxOPN47IG7iLD40znvkTU8q1AAAAAElFTkSuQmCC.png?ex=65dad9d7&is=65c864d7&hm=c4206c7e91e2a3fbc944af56e3d2fc422d14130c5e2d9f4e8ce53b0cd04a9df0&)
+![img](https://cdn.discordapp.com/attachments/1083700228907085946/1206194637442916432/https3A2F2Fs3-us-west-2.png?ex=65db1f4b&is=65c8aa4b&hm=deed2bc3d100e76d43df636d9523f7fa93027f5d4756c349cc2933de1aec513f&)
 
-Pada umumnya, terdapat dua branch, yaitu Master dan Development. Branch Development biasa digunakan untuk melakukan push dari para developer. Kemudian, saat projek di branch development telah siap dan stabil, barulah branch development di-merge dengan branch master. Branch master biasanya dilindungi dari penulisan langsung oleh pengembang untuk mencehan perubahan yang tidak diinginkan.
+Pada umumnya, terdapat dua branch, yaitu Master (atau production) dan Development. Branch Development biasa digunakan untuk melakukan push dari para developer dan menggabungkan merge pull request. Kemudian, saat projek di branch development telah siap dan stabil, barulah branch development di-merge dengan branch master. Branch master biasanya dilindungi dari penulisan langsung oleh pengembang untuk mencehan perubahan yang tidak diinginkan.
 
 Untuk membuat branch, digunakan perintah berikut.
 
@@ -222,6 +229,12 @@ Untuk pindah ke branch lain, digunakan perintah berikut.
 
 ```
 git checkout <nama_branch>
+```
+
+Untuk menghapus branch, digunakan perintah berikut.
+
+```
+git branch -D nama_branch
 ```
 
 Kini kalian telah menguasai local repository yang ibaratnya adalah ruang kerja pribadi kalian. Berikutnya, kalian akan belajar mengenai kolaborasi tim dalam git.
