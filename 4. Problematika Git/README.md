@@ -75,6 +75,8 @@ Ketika project terlalu berantakan dan banyak conflict, pernahkah kalian berfikir
 
 Di sini, kalian harus tahu tentang cherrypicking. Git Cherrypick adalah salah satu fitur yang powerful dalam Git yang memungkinkan kalian untuk mengambil satu atau beberapa commit tertentu dari satu branch dan menerapkan mereka ke branch lain. Ini akan sangat berguna ketika kalian hanya ingin memindahkan perubahan tertentu dari satu branch ke branch lain tanpa harus menggabungkan seluruh history commit.
 
+![cherrypick](https://github.com/arsitektur-jaringan-komputer/pelatihan-git/blob/02ff0d17f2f1e45bc83c493239429fab5f498590/4.%20Problematika%20Git/img/1-10.png)
+
 Langkah-langkahnya cukup sederhana. Pertama, pastikan kalian berada di branch tujuan tempat kalian ingin menerapkan perubahan. Misalnya, jika kalian ingin menerapkan commit dari branch feature-branch ke main, pastikan kalian berada di branch main.
 
 ```
