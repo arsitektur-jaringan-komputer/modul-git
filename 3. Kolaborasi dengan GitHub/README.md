@@ -62,21 +62,30 @@ Ini memungkinkan Anda untuk tetap up-to-date dengan proyek utama dan menjaga for
 
 ## GitHub Project, Backlog, dan Issue
 
-
+cakno
 
 </br>
 
 ## Pull Request, Merge, dan Rebase
 
-
+kanza pr
+nur sing review
+    kalo udah ok, merge
+    kalo belum, kasih comment
+kanza revisi, nur acc
+merge vs rebase
 
 </br>
 
 ## Menjadi Reviewer 101
 
-
+how to read changes
+how to give comment
+how to approve
+how to reject
 
 </br>
 
 ## Git Graph (Git Log)
 
+Nah, salah satu keunggulan dari git adalah adanya Git Log. Git akan mencatat dan membuat alur history dari seluruh commit yang telah dibuat sebelumnya yang umum kita kenal dengan istilah logging. Git akan melakukan  

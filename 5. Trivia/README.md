@@ -10,13 +10,21 @@ Modul 5 ini berisi beberapa bahasan sebagai berikut.
 
 - [Trivia](#trivia)
   - [Daftar Isi](#daftar-isi)
+  - [GitHub Action](#github-action)
   - [Git Bisect](#git-bisect)
   - [Git Hooks](#git-hooks)
   - [Git Submodule](#git-submodule)
   - [Git LFS](#git-lfs)
   - [Git Flow](#git-flow)
   - [Git Server](#git-server)
-  - [GitHub Action](#github-action)
+
+</br>
+
+## GitHub Action
+
+GitHub Action adalah *workflow* yang digunakan untuk mengelola *branch* di dalam *repository*. Dengan menggunakan GitHub Action, kita bisa mengelola *branch* seperti *feature*, *release*, *hotfix*, dan *master*. Nah, salah satu contohnya, yaitu ketika kita ingin melakukan auto rebase dari branch development ke branch master. Kita bisa menggunakan GitHub Action untuk melakukan automasi hal tersebut. 
+
+Untuk lebih lengkapnya, silahkan baca [dokumentasi resmi](https://docs.github.com/en/actions).
 
 </br>
 
@@ -89,11 +97,3 @@ Untuk lebih lengkapnya, silahkan baca [dokumentasi resmi](https://nvie.com/posts
 Git Server adalah *workflow* yang digunakan untuk mengelola *branch* di dalam *repository*. Dengan menggunakan Git Server, kita bisa mengelola *branch* seperti *feature*, *release*, *hotfix*, dan *master*.
 
 Untuk lebih lengkapnya, silahkan baca [dokumentasi resmi](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server).
-
-</br>
-
-## GitHub Action
-
-GitHub Action adalah *workflow* yang digunakan untuk mengelola *branch* di dalam *repository*. Dengan menggunakan GitHub Action, kita bisa mengelola *branch* seperti *feature*, *release*, *hotfix*, dan *master*.
-
-Untuk lebih lengkapnya, silahkan baca [dokumentasi resmi](https://docs.github.com/en/actions).
