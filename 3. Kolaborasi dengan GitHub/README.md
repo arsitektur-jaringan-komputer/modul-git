@@ -72,7 +72,9 @@ Github Project adalah salah satu alat manajemen proyek, serupa dengan Trello dan
 
 ![img](https://cdn.discordapp.com/attachments/1083700228907085946/1206143219033833502/image.png?ex=65daef68&is=65c87a68&hm=bce10d27a3a9e2c77a348ef2f381bb393fb72746e56e3887befebf4d8c60e947&)
 
-Backlog adalah tempat di mana semua ide, permintaan fitur, atau kebutuhan perbaikan dikumpulkan sebelum ditindaklanjuti atau dijadwalkan untuk implementasi. Dalam konteks GitHub, Backlog dapat direpresentasikan dengan menggunakan fitur Issue. Issue adalah alat yang digunakan untuk melacak tugas, *bug*, atau permintaan fitur dalam proyek. Setiap Issue memiliki judul, deskripsi, label, dan dapat ditetapkan kepada orang tertentu dalam tim. Melalui Github Project, Issue dapat ditugaskan kepada anggota tim tertentu untuk ditindaklanjuti, dan kemudian dapat dipindahkan melalui berbagai tahapan alur kerja, seperti *Ready*, *In Progress*, *In Review*, dan *Done*.
+Backlog adalah tempat di mana semua ide, permintaan fitur, atau kebutuhan perbaikan dikumpulkan sebelum ditindaklanjuti atau dijadwalkan untuk implementasi. Dalam konteks GitHub, Backlog dapat direpresentasikan dengan menggunakan fitur Issue. 
+
+Issue adalah alat yang digunakan untuk melacak tugas, *bug*, atau permintaan fitur dalam proyek. Setiap Issue memiliki judul, deskripsi, label, dan dapat ditetapkan kepada orang tertentu dalam tim. Melalui Github Project, Issue dapat ditugaskan kepada anggota tim tertentu untuk ditindaklanjuti, dan kemudian dapat dipindahkan melalui berbagai tahapan alur kerja, seperti *Ready*, *In Progress*, *In Review*, dan *Done*.
 
 </br>
 
@@ -86,7 +88,7 @@ Jika tidak ada, kalian juga bisa membuat *pull request* secara manual.
 
 ![img](https://github.com/arsitektur-jaringan-komputer/modul-git/blob/26428b10c1a42734e5f0ba22d3ebbd4906b5abb5/3.%20Kolaborasi%20dengan%20GitHub/img/3-20.png)
 
-Deskripsi dari pull request yaitu daftar perubahan yang kalian kerjakan di branch kalian serta dokumentasinya, bisa berupa screenshot yang memperlihatkan bahwa pekerjaan kalian telah sesuai.
+Deskripsi dari *pull request* yaitu daftar perubahan yang kalian kerjakan di *branch* kalian serta dokumentasinya, bisa berupa *screenshot* yang memperlihatkan bahwa pekerjaan kalian telah sesuai.
 
 ![img](https://cdn.discordapp.com/attachments/1206040429368451093/1206186086833983509/image.png?ex=65db1754&is=65c8a254&hm=9e56da04064b84359c7fabff0f0aea348051d87b68038223e3e24e77187f9841&)
 
@@ -98,11 +100,7 @@ Deskripsi dari pull request yaitu daftar perubahan yang kalian kerjakan di branc
 
 ## Menjadi Reviewer 101
 
-Sebagai *reviewer*, tugas kita adalah mengecek apakah perubahan yang dibuat dalam sebuah *pull request* sudah benar atau belum. Kita bisa mengomentari sebuah *pull request* dan melakukan *merge* apabila perubahan yang dibuat sudah benar.
-
-![img](https://github.com/arsitektur-jaringan-komputer/modul-git/blob/26428b10c1a42734e5f0ba22d3ebbd4906b5abb5/3.%20Kolaborasi%20dengan%20GitHub/img/3-16.png)
-
-Kalian bisa mengecek perubahan yang dibuat dalam *pull request* tersebut.
+Sebagai *reviewer*, tugas kita adalah mengecek apakah perubahan yang dibuat dalam sebuah *pull request* sudah benar atau belum. Pertama, kalian bisa mengecek perubahan yang dibuat dalam *pull request* tersebut.
 
 ![img](https://github.com/arsitektur-jaringan-komputer/modul-git/blob/26428b10c1a42734e5f0ba22d3ebbd4906b5abb5/3.%20Kolaborasi%20dengan%20GitHub/img/3-22.png)
 
