@@ -79,7 +79,7 @@ Terdapat tiga jenis *change* atau perubahan:
 git diff
 ```
 
-[img]()
+[img](https://cdn.discordapp.com/attachments/1206040429368451093/1206999152870031411/image.png?ex=65de0c8f&is=65cb978f&hm=b04ce6e07cda59d393667c85b8e96064972702e456d8cf071ac320992bb20a99&)
 
 </br>
 
@@ -97,7 +97,7 @@ git reset HEAD <file_name>    # Hapus perubahan di sebuah file
 
 ### 2. Revert
 
-Revert berguna untuk membuat commit baru yang membatalkan perubahan oleh commit tertentu tanpa mengubah sejarah commit yang sudah ada. Sangat baik untuk menunda *shared public changes*.
+Revert berguna untuk membuat *commit* baru yang membatalkan perubahan oleh *commit* tertentu tanpa mengubah sejarah *commit* yang sudah ada. Sangat baik untuk menunda *shared public changes*.
 
 ```
 git revert <commit_id>
@@ -105,20 +105,20 @@ git revert <commit_id>
 
 ### 3. Checkout
 
-Checkout sebenarnya berfungsi untuk berpindah branch, namun bisa juga digunakan untuk mengembalikan file di working directory ke versi pada commit tertentu.
+Checkout sebenarnya berfungsi untuk berpindah *branch*, namun bisa juga digunakan untuk mengembalikan *file* di *working directory* ke versi pada *commit* tertentu.
 
 ```
 git checkout <branch_name>  # Pindah ke branch lain
 git checkout <commit_id> -- <file>  # Mengembalikan keadaan sebuah file ke versi pada commit tertentu
 ```
 
-Terdapat juga kondisi di mana kalian mungkin sudah membuat perubahan pada branch kalian, namun ingin berpindah ke branch lain. Kalian bisa menggunakan perintah berikut untuk menyembunyikan perubahan di branch kalian dan beralih ke branch lain tanpa perlu melakukan commit.
+Terdapat juga kondisi di mana kalian mungkin sudah membuat perubahan pada *branch* kalian, namun ingin berpindah ke *branch* lain. Kalian bisa menggunakan perintah berikut untuk menyembunyikan perubahan di *branch* kalian dan beralih ke *branch* lain tanpa perlu melakukan *commit*.
 
 ```
 git stash
 ```
 
-Untuk mengembalikan perubahan yang disimpan sebelumnya dari stash ke working directory, kalian bisa menggunakan perintah berikut.
+Untuk mengembalikan perubahan yang disimpan sebelumnya dari *stash* ke *working directory*, kalian bisa menggunakan perintah berikut.
 
 ```
 git stash pop
@@ -134,7 +134,7 @@ Bila perubahan yang kalian lakukan sudah *fix*, kalian dapat melakukan perintah-
 
 ### 1. Git add
 
-Git add dilakukan untuk memilih dan menambahkan perubahan yang telah dibuat ke staging area. Berikut adalah beberapa cara melakukan git add.
+Git Add dilakukan untuk memilih dan menambahkan perubahan yang telah dibuat ke *staging area*. Berikut adalah beberapa cara melakukan Git Add.
 
 ```
 git add . # Menambahkan semua perubahan ke staging area
@@ -143,19 +143,19 @@ git add <file_name> # Menambahkan perubahan di satu file ke staging area
 
 ### 2. Git commit
 
-Git commit adalah perintah yang digunakan untuk menyimpan perubahan yang telah ditambahkan ke staging area ke dalam *local repository* sebagai sebuah commit. Commit merupakan langkah penting karena merupakan cara untuk merekam riwayat perubahan dalam repositori. Setelah melakukan commit, perubahan yang dilakukan akan tercatat di riwayat *repository* kalian. Berikut adalah perintah untuk git commit.
+Git Commit adalah perintah yang digunakan untuk menyimpan perubahan yang telah ditambahkan ke *staging area* ke dalam *local repository* sebagai sebuah *commit*. *Commit* merupakan langkah penting karena merupakan cara untuk merekam riwayat perubahan dalam *repository*. Setelah melakukan *commit*, perubahan yang dilakukan akan tercatat di riwayat *repository* kalian. Berikut adalah perintah untuk Git Commit.
 
 ```
 git commit -m "commit message"
 ```
 
-Kalian juga bisa mengubah commit terakhir atau menyatukan perubahan dalam commit terakhir tanpa membuat commit baru menggunakan perintah berikut.
+Kalian juga bisa mengubah *commit* terakhir atau menyatukan perubahan dalam *commit* terakhir tanpa membuat *commit* baru menggunakan perintah berikut.
 
 ```
 git commit --amend
 ```
 
-Kalian juga bisa melakukan commit untuk multiple user, yaitu menggunakan perintah berikut.
+Kalian juga bisa melakukan *commit* untuk *multiple author*, yaitu menggunakan perintah berikut.
 
 ```
 git commit --author="Nama kalian <email@kalian.com>, Nama 2 <nama@email.com>" -m "commit messages"
@@ -163,19 +163,19 @@ git commit --author="Nama kalian <email@kalian.com>, Nama 2 <nama@email.com>" -m
 
 ### 3. Git push
 
-Git push dilakukan untuk mengirim perubahan yang telah di-commit di local repository ke remote repository. Berikut adalah perintah untuk melakukan git push.
+Git Push dilakukan untuk mengirim perubahan yang telah di-*commit* di *local repository* ke *remote repository*. Berikut adalah perintah untuk melakukan Git Push.
 
 ```
 git push
 ```
 
-Terdapat juga perintah untuk memaksa push ke remote repository dengan mengganti sejarah commit di remote repository dengan sejarah commit dari local repository, yaitu `git push --force`. Namun, hal ini dapat berbahaya karena menghilangkan pekerjaan orang lain yang bekerja berdasarkan sejarah commit dari remote repository. Untuk itu, kalian bisa menggunakan perintah berikut untuk melakukan push paksa secara aman, yaitu dengan mendapat peringatan bila orang lain telah melakukan push berdasarkan remote repository.
+Terdapat juga perintah untuk memaksa *push* ke *remote repository* dengan mengganti sejarah *commit* di *remote repository* dengan sejarah *commit* dari *local repository*, yaitu `git push --force`. Namun, hal ini dapat berbahaya karena menghilangkan pekerjaan orang lain yang bekerja berdasarkan sejarah *commit* dari *remote repository*. Untuk itu, kalian bisa menggunakan perintah berikut untuk melakukan *push* paksa secara aman, yaitu dengan mendapat peringatan bila orang lain telah melakukan *push* berdasarkan *remote repository*.
 
 ```
 git push --force-with-lease
 ```
 
-> Penting: pastikan kalian telah berada di branch yang benar sebelum melakukan push, ya!
+> Penting: pastikan kalian telah berada di *branch* yang benar sebelum melakukan *push*, ya!
 
 </br>
 
@@ -213,28 +213,28 @@ Deskripsi bersifat mandatori, dan berisikan deskripsi singkat mengenai perubahan
 
 ## Branchs Management
 
-Branching adalah membuat cabang pekerjaan dari cabang utama development dan melanjutkan pekerjaan kalian tanpa mengutak-atik cabang utama.
+*Branching* adalah membuat *branch* (cabang) pekerjaan dari *branch* utama *development* dan melanjutkan pekerjaan kalian tanpa mengutak-atik *branch* utama.
 
 ![img](https://cdn.discordapp.com/attachments/1083700228907085946/1206194637442916432/https3A2F2Fs3-us-west-2.png?ex=65db1f4b&is=65c8aa4b&hm=deed2bc3d100e76d43df636d9523f7fa93027f5d4756c349cc2933de1aec513f&)
 
-Pada umumnya, terdapat dua branch, yaitu Master (atau production) dan Development. Branch Development biasa digunakan untuk melakukan push dari para developer dan menggabungkan merge pull request. Kemudian, saat projek di branch development telah siap dan stabil, barulah branch development di-merge dengan branch master. Branch master biasanya dilindungi dari penulisan langsung oleh pengembang untuk mencehan perubahan yang tidak diinginkan.
+Pada umumnya, terdapat dua *branch*, yaitu Master (atau Production) dan Development. *Branch* Development biasa digunakan untuk melakukan *push* dari para *developer* dan menggabungkan *merge pull request*. Kemudian, saat projek di *branch* Development telah siap dan stabil, barulah *branch* Development di-*merge* dengan *branch* Master. *Branch* Master biasanya dilindungi dari penulisan langsung oleh *developer* untuk mencegak perubahan yang tidak diinginkan.
 
-Untuk membuat branch, digunakan perintah berikut.
+Untuk membuat *branch*, digunakan perintah berikut.
 
 ```
 git branch <nama_branch>
 ```
 
-Untuk pindah ke branch lain, digunakan perintah berikut.
+Untuk pindah ke *branch* lain, digunakan perintah berikut.
 
 ```
 git checkout <nama_branch>
 ```
 
-Untuk menghapus branch, digunakan perintah berikut.
+Untuk menghapus *branch*, digunakan perintah berikut.
 
 ```
 git branch -D nama_branch
 ```
 
-Kini kalian telah menguasai local repository yang ibaratnya adalah ruang kerja pribadi kalian. Berikutnya, kalian akan belajar mengenai kolaborasi tim dalam git.
+Kini kalian telah menguasai *local repository* yang ibaratnya adalah ruang kerja pribadi kalian. Berikutnya, kalian akan belajar mengenai kolaborasi tim dalam git.
